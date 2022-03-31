@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/aws/aws-sdk-go-v2/config v1.15.3
-	github.com/kevinburke/ssh_config v1.1.0
+	github.com/kevinburke/ssh_config v1.2.0
 )
 
 require (
