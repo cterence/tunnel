@@ -24,7 +24,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/ec2 v1.38.0
 	github.com/aws/aws-sdk-go-v2/service/eks v1.20.7
 	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.9.4 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ssm v1.26.0
+	github.com/aws/aws-sdk-go-v2/service/ssm v1.27.0
 	github.com/aws/aws-sdk-go-v2/service/sso v1.11.4 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.16.4 // indirect
 	github.com/aws/smithy-go v1.11.2 // indirect
