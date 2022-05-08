@@ -79,8 +79,8 @@ daemon mode : %s`, bastionName, sshUser, clusterName, daemonMode)
 			log.Fatalf("failed to describe cluster, %v", err)
 		}
 
-		if eksResult.Cluster.Endpoint == nil {
-			log.Fatalf("the cluster \"%s\" does not exist", clusterName)
+		if eksResult.Cluster.Status != "ACTIVE" {
+			log.Fatalf("the cluster \"%s\" is not in \"ACTIVE\" state. State : %s", clusterName, eksResult.Cluster.Status)
 		}
 
 		eksApiEndpoint := strings.Replace(*eksResult.Cluster.Endpoint, "https://", "", 1)
@@ -173,6 +173,6 @@ func init() {
 	rootCmd.AddCommand(openCmd)
 	openCmd.Flags().StringVarP(&bastionName, "bastion", "b", "bastion", "Name of the bastion instance to connect to")
 	openCmd.Flags().StringVarP(&sshUser, "ssh-user", "u", "ec2-user", "Name of the SSH user")
-	openCmd.Flags().StringVarP(&clusterName, "cluster", "c", "eks_cluster", "Name of the EKS cluster to connect to")
+	openCmd.Flags().StringVarP(&clusterName, "cluster", "c", "eks-cluster", "Name of the EKS cluster to connect to")
 	openCmd.Flags().BoolVarP(&daemon, "daemon", "d", false, "Run in the background")
 }

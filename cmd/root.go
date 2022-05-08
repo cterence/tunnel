@@ -71,7 +71,7 @@ Examples:
 			}
 
 			clusterPrompt := promptui.Prompt{
-				Label: "Cluster name (default : eks_cluster)",
+				Label: "Cluster name (default : eks-cluster)",
 			}
 
 			result, err = clusterPrompt.Run()
