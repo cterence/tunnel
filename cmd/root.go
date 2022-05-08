@@ -55,6 +55,21 @@ Examples:
 				bastionName = result
 			}
 
+			sshUserPrompt := promptui.Prompt{
+				Label: "SSH user name (default : ec2-user)",
+			}
+
+			result, err = sshUserPrompt.Run()
+
+			if err != nil {
+				fmt.Printf("Prompt failed %v\n", err)
+				return
+			}
+
+			if result != "" {
+				sshUser = result
+			}
+
 			clusterPrompt := promptui.Prompt{
 				Label: "Cluster name (default : eks_cluster)",
 			}

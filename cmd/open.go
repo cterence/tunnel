@@ -21,6 +21,7 @@ import (
 )
 
 var bastionName string
+var sshUser string
 var clusterName string
 var daemon bool
 
@@ -43,8 +44,9 @@ var openCmd = &cobra.Command{
 
 		log.Printf(`parameters : 
 bastion instance name : %s
+ssh user : %s
 cluster name : %s
-daemon mode : %s`, bastionName, clusterName, daemonMode)
+daemon mode : %s`, bastionName, sshUser, clusterName, daemonMode)
 
 		cfg, err := config.LoadDefaultConfig(context.TODO(), config.WithRegion("eu-west-3"))
 		if err != nil {
@@ -149,9 +151,9 @@ Host i-*
 
 		log.Printf("opening tunnel")
 
-		commandString := "sshuttle -r ubuntu@" + bastionInstanceId + " " + ipString
+		commandString := "sshuttle -r " + sshUser + "@" + bastionInstanceId + " " + ipString
 		if daemon {
-			commandString = "sshuttle --daemon --pidfile=" + pidFile + " -r ubuntu@" + bastionInstanceId + " " + ipString
+			commandString = "sshuttle --daemon --pidfile=" + pidFile + " -r " + sshUser + "@" + bastionInstanceId + " " + ipString
 		}
 
 		command := exec.Command("bash", "-c", commandString)
@@ -170,6 +172,7 @@ Host i-*
 func init() {
 	rootCmd.AddCommand(openCmd)
 	openCmd.Flags().StringVarP(&bastionName, "bastion", "b", "bastion", "Name of the bastion instance to connect to")
+	openCmd.Flags().StringVarP(&sshUser, "ssh-user", "u", "ec2-user", "Name of the SSH user")
 	openCmd.Flags().StringVarP(&clusterName, "cluster", "c", "eks_cluster", "Name of the EKS cluster to connect to")
 	openCmd.Flags().BoolVarP(&daemon, "daemon", "d", false, "Run in the background")
 }
