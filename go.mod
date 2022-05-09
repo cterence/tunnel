@@ -3,7 +3,7 @@ module tunnel
 go 1.17
 
 require (
-	github.com/aws/aws-sdk-go-v2/config v1.15.4
+	github.com/aws/aws-sdk-go-v2/config v1.15.5
 	github.com/kevinburke/ssh_config v1.2.0
 )
 
