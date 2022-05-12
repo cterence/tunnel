@@ -21,7 +21,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.10 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.4 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/ini v1.3.11 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ec2 v1.42.0
+	github.com/aws/aws-sdk-go-v2/service/ec2 v1.43.0
 	github.com/aws/aws-sdk-go-v2/service/eks v1.21.0
 	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.9.4 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssm v1.27.0
