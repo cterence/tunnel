@@ -265,6 +265,8 @@ github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.13 h1:WuQ1yGs3TMJgxpGVL
 github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.13/go.mod h1:wLLesU+LdMZDM3U0PP9vZXJW39zmD/7L4nY2pSrYZ/g=
 github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.14 h1:2C0pYHcUBmdzPj+EKNC4qj97oK6yjrUhc1KoSodglvk=
 github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.14/go.mod h1:kdjrMwHwrC3+FsKhNcCMJ7tUVj/8uSD5CZXeQ4wV6fM=
+github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.18 h1:OmiwoVyLKEqqD5GvB683dbSqxiOfvx4U2lDZhG2Esc4=
+github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.18/go.mod h1:348MLhzV1GSlZSMusdwQpXKbhD7X2gbI/TxwAPKkYZQ=
 github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.1.0 h1:ArRd27pSm66f7cCBDPS77wvxiS4IRjFatpzVBD7Aojc=
 github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.1.0/go.mod h1:KdVvdk4gb7iatuHZgIkIqvJlWHBtjCJLUtD/uO/FkWw=
 github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.0 h1:bt3zw79tm209glISdMRCIVRCwvSDXxgAxh5KWe2qHkY=
@@ -285,6 +287,8 @@ github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.7 h1:mCeDDYeDXp3loo/xKi7
 github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.7/go.mod h1:93Uot80ddyVzSl//xEJreNKMhxntr71WtR3v/A1cRYk=
 github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.8 h1:2J+jdlBJWEmTyAwC82Ym68xCykIvnSnIN18b8xHGlcc=
 github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.8/go.mod h1:ZIV8GYoC6WLBW5KGs+o4rsc65/ozd+eQ0L31XF5VDwk=
+github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.12 h1:5mvQDtNWtI6H56+E4LUnLWEmATMB7oEh+Z9RurtIuC0=
+github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.12/go.mod h1:ckaCVTEdGAxO6KwTGzgskxR1xM+iJW4lxMyDFVda2Fc=
 github.com/aws/aws-sdk-go-v2/internal/ini v1.3.3 h1:fmGqMNlFTHr9Y48qmYYv2qIo+TAsST3qZa2d1HcwBeo=
 github.com/aws/aws-sdk-go-v2/internal/ini v1.3.3/go.mod h1:N4dv+zawriMFZBO/6UKg3zt+XO6xWOQo1neAA0lFbo4=
 github.com/aws/aws-sdk-go-v2/internal/ini v1.3.7 h1:QOMEP8jnO8sm0SX/4G7dbaIq2eEP2wcWEsF0jzrXLJc=
@@ -383,6 +387,8 @@ github.com/aws/aws-sdk-go-v2/service/eks v1.21.3 h1:NSDaco9+Q7eZC2r2FA4VNoWJav9j
 github.com/aws/aws-sdk-go-v2/service/eks v1.21.3/go.mod h1:k5Qu8sh7MKwjTzrYtuk5VC/mpckBUKyMZtB/gk3/R2Y=
 github.com/aws/aws-sdk-go-v2/service/eks v1.21.4 h1:qmKWieiIiYwD46GRD6nxFc1KsyR0ChGRid8emb7rDEY=
 github.com/aws/aws-sdk-go-v2/service/eks v1.21.4/go.mod h1:Th2+t6mwi0bZayXUOFOTuyWR2nwRUVcadDy4WGE8C2E=
+github.com/aws/aws-sdk-go-v2/service/eks v1.21.8 h1:uF8ubOoj49FDr0/Lyo5tR7OpKgT/xNcwuzEHMZBI0Ok=
+github.com/aws/aws-sdk-go-v2/service/eks v1.21.8/go.mod h1:R9cRhIInyI6RvK1CjhZSksjWN3wnNAx9ZtAqe5Jjvw0=
 github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.6.0 h1:rwE0kWa5qm0yEoNPwC3zhrt1tFVXTmkWRlUxLayAwyc=
 github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.6.0/go.mod h1:wTgFkG6t7jS/6Y0SILXwfspV3IXowb6ngsAlSajW0Kc=
 github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.9.0 h1:YQ3fTXACo7xeAqg0NiqcCmBOXJruUfh+4+O2qxF2EjQ=
