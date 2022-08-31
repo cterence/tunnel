@@ -16,19 +16,19 @@ require (
 
 require (
 	github.com/aws/aws-sdk-go v1.44.88
-	github.com/aws/aws-sdk-go-v2 v1.16.12
+	github.com/aws/aws-sdk-go-v2 v1.16.13
 	github.com/aws/aws-sdk-go-v2/credentials v1.12.16 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.12.13 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.19 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.13 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.20 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.14 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/ini v1.3.20 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ec2 v1.54.2
+	github.com/aws/aws-sdk-go-v2/service/ec2 v1.54.3
 	github.com/aws/aws-sdk-go-v2/service/eks v1.21.9
-	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.9.13 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.9.14 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssm v1.27.11
 	github.com/aws/aws-sdk-go-v2/service/sso v1.11.19 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.16.15 // indirect
-	github.com/aws/smithy-go v1.13.0 // indirect
+	github.com/aws/smithy-go v1.13.1 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/manifoldco/promptui v0.9.0
 	github.com/spf13/cobra v1.5.0
