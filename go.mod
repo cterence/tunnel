@@ -16,7 +16,7 @@ require (
 
 require (
 	github.com/aws/aws-sdk-go v1.44.90
-	github.com/aws/aws-sdk-go-v2 v1.16.13
+	github.com/aws/aws-sdk-go-v2 v1.16.14
 	github.com/aws/aws-sdk-go-v2/credentials v1.12.17 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.12.14 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.20 // indirect
@@ -28,7 +28,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/ssm v1.27.12
 	github.com/aws/aws-sdk-go-v2/service/sso v1.11.20 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.16.16 // indirect
-	github.com/aws/smithy-go v1.13.1 // indirect
+	github.com/aws/smithy-go v1.13.2 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/manifoldco/promptui v0.9.0
 	github.com/spf13/cobra v1.5.0
