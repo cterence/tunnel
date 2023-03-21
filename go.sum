@@ -1028,6 +1028,7 @@ github.com/aws/aws-sdk-go-v2/service/ssm v1.35.3/go.mod h1:VLSz2SHUKYFSOlXB/GlXo
 github.com/aws/aws-sdk-go-v2/service/ssm v1.35.4/go.mod h1:DlzAqaXaUSJVQGuZrGPb4TWTkDG6vUs5OiIoX0AxjkU=
 github.com/aws/aws-sdk-go-v2/service/ssm v1.35.5/go.mod h1:DlzAqaXaUSJVQGuZrGPb4TWTkDG6vUs5OiIoX0AxjkU=
 github.com/aws/aws-sdk-go-v2/service/ssm v1.35.6/go.mod h1:Tkroqwa5sqjboPu++LC/W7mk9BnNUhHr/OJr3XVpX4U=
+github.com/aws/aws-sdk-go-v2/service/ssm v1.35.7/go.mod h1:nCdeJmEFby1HKwKhDdKdVxPOJQUNht7Ngw+ejzbzvDU=
 github.com/aws/aws-sdk-go-v2/service/sso v1.8.0 h1:X77LUt6Djy3Z02r6tW7Z+4FNr6GCnEG54EXfskc19M4=
 github.com/aws/aws-sdk-go-v2/service/sso v1.8.0/go.mod h1:AB6v3BedyhVRIbPQbJnUsBmtup2pFiikpp5n3YyB6Ac=
 github.com/aws/aws-sdk-go-v2/service/sso v1.11.0 h1:gZLEXLH6NiU8Y52nRhK1jA+9oz7LZzBK242fi/ziXa4=
